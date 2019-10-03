@@ -14,10 +14,10 @@ import polinema.ac.id.starterchapter05.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BlueFragment extends Fragment {
+public class HandStandFragment extends Fragment {
 
 
-    public BlueFragment() {
+    public HandStandFragment() {
         // Required empty public constructor
     }
 
@@ -26,7 +26,7 @@ public class BlueFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blue, container, false);
+        return inflater.inflate(R.layout.fragment_hand_stand, container, false);
     }
 
 }
